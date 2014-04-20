@@ -1,0 +1,63 @@
+Object Sphere1
+  Primitive Sphere
+
+  Texture 1
+
+  Transforms
+    Scale 1.0 1.0 1.0
+    Translate 0.0 0.0 0.0
+  End
+
+  Face_Color 1
+End
+
+Object Sphere2
+  Primitive Sphere
+
+  Transforms
+    Scale      2.0 1.0 1.0
+    Translate -3.0 0.0 0.0
+  End
+
+  Face_Color 2
+End
+
+Object Sphere3
+  Primitive Sphere
+
+  Transforms
+    Scale     1.0  2.0 1.0
+    Translate 0.0 -3.0 0.0
+  End
+
+  Face_Color 3
+End
+
+Object Sphere4
+  Primitive Sphere
+
+  Transforms
+    Scale     1.0 1.0 2.0
+    Translate 0.0 0.0 -3.0
+  End
+
+  Face_Color 4
+End
+
+Scene
+  Object Sphere1
+  Object Sphere2
+  Object Sphere3
+  Object Sphere4
+End
+
+Colors
+  red
+  green
+  blue
+  yellow
+End
+
+Textures
+  jupiter1.jpg
+End

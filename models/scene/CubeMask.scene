@@ -1,0 +1,22 @@
+Colors
+  red
+  green
+  blue
+  yellow
+End
+
+Textures
+  textures/mask1.png
+  pics/manga.bmp
+End
+
+Object Cube1
+  Primitive Cube
+
+  CoverMask 1
+  CoverTexture 2
+End
+
+Scene
+  Object Cube1
+End

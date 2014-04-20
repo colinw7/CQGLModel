@@ -1,0 +1,40 @@
+Colors
+  red
+  green
+  blue
+  yellow
+End
+
+Textures
+  textures/star_field.jpg
+  textures/jupiter1.jpg
+End
+
+Object Starfield
+  Primitive Cube
+
+  Flip_Orientation
+
+  Texture 1
+
+  Transforms
+    Scale     10.0 10.0  10.0
+    Translate  0.0  0.0 -20.0
+  End
+End
+
+Object Jupiter
+  Primitive Sphere
+
+  CoverTexture 2
+
+  Transforms
+    Scale     1.0 1.0 1.0
+    Translate 0.0 0.0 0.0
+  End
+End
+
+Scene
+  Object Starfield
+  Object Jupiter
+End
